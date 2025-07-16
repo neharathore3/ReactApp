@@ -37,6 +37,7 @@ const App = () => {
   return (
     <Container className="mt-4">
       <h1>Loan Application Dashboard</h1>
+      <HomePage />
       <DashboardSummary summary={summary} />
       <ApplicationSearch onSearch={handleSearch} />
       <ApplicationList applications={applications} />
